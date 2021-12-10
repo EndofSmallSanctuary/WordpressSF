@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/wp-content/themes/astra/templates/grunt_template/fonts/poppins_bold.ttf");
+   }
+   @font-face {
+    font-family: "Poppins-Regular";
+    src: url("/wp-content/themes/astra/templates/grunt_template/fonts/poppins_regular.ttf");
+   }
+
+#grunt_overall_container{
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#grunt_chart_container{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+	margin-bottom:100px;
+}
+
+#grunt_chart_configuration{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.grunt_chart{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+
+#grunt_table{
+    display: block;
+    height: auto;
+    margin: 20px;
+}
+
+
+.ast-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.grunt_chart_p{
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: "Poppins-Bold";
+    margin-right: 10px;
+}

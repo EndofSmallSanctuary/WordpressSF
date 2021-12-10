@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/wp-content/themes/astra/templates/metka_template/fonts/poppins_bold.ttf");
+   }
+   @font-face {
+    font-family: "Poppins-Regular";
+    src: url("/wp-content/themes/astra/templates/metka_template/fonts/poppins_regular.ttf");
+   }
+
+#page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#masthead{
+    height: 7%;
+    width: 100%;
+}
+
+#metka_overall_container{
+    height: 79%;
+    width: 100vw;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+#metka_overall_container::-webkit-scrollbar {
+    display: none;
+}
+
+#metka_table_container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#metka_devs_container{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+}
+
+#metka_table{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: min-content;
+}
+
+#metka_chart_container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    margin-bottom: 100px;
+}
+
+#metka_gunt{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#metka_chart{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+#units_container{
+    flex: auto;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#bikini_bottom{
+    background-color: black;
+    display: flex;
+    flex-direction: row ;
+    height: 14%;
+    width: 100%;
+}
+
+
+#button_search{
+    font-weight: 500;
+    background-color: #ffcc00;
+    height: max-content;
+    width: max-content;
+    font-size: 1.3em;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+
+#datepicker_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#datepicker_from_to_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+#datepicker_from_to_container p{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-family: Astra;
+    font-size: 1.2em;
+    color: wheat;
+    font-weight: 500;
+}
+
+
+.datepicker_header{
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-family: Astra;
+}
+
+
+.ast-page-builder-template .site-content > .ast-container {
+    height: 100%;
+    width: 100%;
+}
+
+
+.input_datepicker{
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: black;
+    border-radius: 5%;
+    text-align: center;
+}
+
+
+
+.single_unit{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.checkbox_label{
+    margin-left: 20px;
+    font-size: 1.4em;
+    color: white;
+}
+
+
+.checkbox_desc_clt_logo{
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.checkbox_desc_clt_text{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.metka_dev{
+    font-family: Poppins-Bold;
+    display: flex;
+    font-size: 1.55vh;
+    flex-direction: row;
+    background-color: #29292c;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.metka_dev p{
+    margin-bottom: 0px;
+}
+
+.no_data_placement{
+	width: 100vw;
+	height: 100vh;
+	font-size: 5vh;
+	font-family: Poppins-Bold;
+	margin-top:30vh;
+	color:#333;
+	text-align: center
+}
+
+
+
+.ast-container{
+    display: flex;
+    flex-direction: column;
+}

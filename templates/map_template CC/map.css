@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/wp-content/themes/astra/templates/grunt_template/fonts/poppins_bold.ttf");
+   }
+   @font-face {
+    font-family: "Poppins-Regular";
+    src: url("/wp-content/themes/astra/templates/grunt_template/fonts/poppins_regular.ttf");
+   }
+
+#map_overall_container{
+    height: 81vh; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#map{
+    height: 100% ;
+    width: 100% ;
+}
+
+        
+.placemark_layout_container { 
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    justify-content: space-between;
+    position: relative;
+    color: #FF0000;
+    font-family: Georgia;
+    text-align: center;
+    font-weight: bold;
+}
+        /* Квадратный макет метки */
+.square_layout {
+    position: absolute;
+    left: -23px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    line-height: 46px;
+    border: 2px solid #218703;
+    background-color: #F8FDF7;
+    color: #218703;
+}
+
+.ymaps-2-1-79-traffic{
+    display: none !important;
+}
+
+.ymaps-2-1-79-map-copyrights-promo{
+    display: none !important;
+}
+
+.ymaps-2-1-79-copyright.ymaps-2-1-79-copyright_logo_no{
+    display: none !important;
+}
+
+.ymaps-2-1-79-search.ymaps-2-1-79-search_layout_normal.ymaps-2-1-79-searchbox__normal-layout{
+    display: none !important;
+}
+
+/* .ymaps-2-1-79-float-button.ymaps-2-1-79-_hidden-text{
+    display: none  !important;
+} */
+
+.ymaps-2-1-79-copyright__wrap{
+    display: none !important;
+}
+
+.ymaps-2-1-79-controls__control{
+    margin-bottom: 2vh;
+}
+
+.ast-container{
+    display: flex;
+    flex-direction: column;
+}
+
